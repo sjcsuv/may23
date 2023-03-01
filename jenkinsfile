@@ -7,14 +7,14 @@ ipeline {
         stage('build') {
 
             steps {
-              echo 'building the app..'
+              echo ''
             }
         }
 
         stage('test') {
 
             steps {
-                echo 'testing the app..'    
+                echo ''    
             }
         }
 
