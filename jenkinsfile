@@ -7,7 +7,7 @@ ipeline {
         stage('build') {
 
             steps {
-              echo 'building the newbranch for pull request2..'
+              echo 'building the app..'
             }
         }
 
