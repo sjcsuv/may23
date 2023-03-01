@@ -13,16 +13,15 @@ ipeline {
 
         stage('test') {
 
-
             steps {
-                echo 'sjcsuv-patch1 ..'    
+                echo 'testing the app..'    
             }
         }
 
         stage('deploy') {
 
             steps {
-                 echo 'deploying the ..'
+                 echo 'deploying the app..'
             }
         }            
     }
