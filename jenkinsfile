@@ -6,15 +6,15 @@ ipeline {
 
         stage('build') {
 
-            steps {
-              echo 'building the newbranch for pull request2..'
+            step
+              echo '.'
             }
         }
 
         stage('test') {
 
             steps {
-                echo 'testing the app..'    
+                echo '..'    
             }
         }
 
