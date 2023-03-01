@@ -21,7 +21,7 @@ ipeline {
         stage('deploy') {
 
             steps {
-                 echo 'thisis form branch3'
+                 echo 'deploying the app..'
             }
         }            
     }
